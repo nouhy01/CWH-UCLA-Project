@@ -1,6 +1,4 @@
 # CWH-UCLA-Project
-Below is the formal draft for your GitHub README.md file, incorporating the specific objectives, data strategy, and organizational structure from your project deliverables.
-
 School Greening & Watershed Equity Project
 Project Overview
 The Council for Watershed Health (CWH) serves as a Watershed Coordinator for the Safe, Clean Water Program (SCWP). This project addresses the challenge of fragmented environmental and demographic data by creating a Unified School Layer for all K-12 public schools in LA County.
