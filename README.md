@@ -3,7 +3,7 @@ School Greening & Watershed Equity Project
 Project Overview
 The Council for Watershed Health (CWH) serves as a Watershed Coordinator for the Safe, Clean Water Program (SCWP). This project addresses the challenge of fragmented environmental and demographic data by creating a Unified School Layer for all K-12 public schools in LA County.
 
-By joining disparate datasets into a single database, this tool identifies "Intersectional Opportunity Sites"—campuses with a high need for environmental cooling (canopy) and stormwater management (permeability) that also serve disadvantaged communities.
+By joining disparate datasets into a single database, this tool identifies "Intersectional Opportunity Sites" campuses with a high need for environmental cooling (canopy) and stormwater management (permeability) that also serve disadvantaged communities.
 
 Key Objectives
 
