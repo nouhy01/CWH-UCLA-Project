@@ -18,19 +18,7 @@ Analyze Connectivity: Map the physical relationship between schools, local parks
 
 Stormwater Potential: Rank campuses where "low canopy + high pollution + high infiltration potential" intersect to maximize stormwater capture.
 
-Repository Folder Structure
-Based on the project's data management plan:
-
-Plaintext
-CWH-UCLA-Project/
-├── data/               # Raw and processed datasets (Shapefiles, CSVs) 
-├── docs/               # Meeting notes, literature reviews, and references 
-├── notebooks/          # Jupyter/Python scripts for data joins and modeling 
-├── plots/              # Exploratory visualizations (Equity Shade Gap, etc.) 
-├── .gitignore          # Files to exclude (e.g., local environment files)
-├── requirements.txt    # Software dependencies
-└── README.md           # Project documentation
-🛠 Software & Package Requirements
+Software & Package Requirements
 To run the analysis scripts in this repository, you will need Python 3.x and the following libraries:
 
 Data Analysis: pandas, numpy
