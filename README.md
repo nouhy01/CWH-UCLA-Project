@@ -10,20 +10,18 @@ Key Objectives
 Centralize Data: Integrate scores from CalEnviroScreen, the California Schoolyard Tree Canopy Equity Study, and SCWP planning tools into a single actionable layer.
 
 
-Prioritize Equity: Identify high-need schools based on pollution burden and socioeconomic factors.
+Prioritize Equity: Identify high-need schools based on environmental burden and socioeconomic factors.
 
 
 Analyze Connectivity: Map the physical relationship between schools, local parks, and protected bike lanes.
 
 
-Stormwater Potential: Rank campuses where "low canopy + high pollution + high infiltration potential" intersect to maximize stormwater capture.
+Stormwater Potential: Rank campuses where "high impermeability + high infiltration potential" intersect to maximize stormwater capture.
 
 Software & Package Requirements
 To run the analysis scripts in this repository, you will need Python 3.x and the following libraries:
 
-Data Analysis: pandas, numpy
-
-Visualization: matplotlib
+Data Analysis: pandas, numpy, seaborn, matplotlib
 
 
 Statistical Modeling: scikit-learn (for Random Forest scoring algorithms)
