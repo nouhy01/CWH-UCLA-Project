@@ -1,0 +1,6 @@
+California Schools Database (https://hub.arcgis.com/maps/b0f08c298d934dab81c7d8cd4e6eab24)
+Data from March 4th, 2021
+From our closed schools database, we have record of 93 closing after this.
+93/381 = 24.4%
+Therefore on ArcGIS, we made the decision to override active school polygons with closed schools markers from our more updated database.
+Further experimentation will show whether or not this was a good decision.
