@@ -66,9 +66,9 @@ The project generates several key metrics for decision-makers:
 ---
 
 ## Acknowledgments
-* **Nouh J. Sepulveda** – Lead Researcher, UCLA CEE
-* **Michael Adams Jr.** – Data Architecture
-* **Professor Isabella arzno-soltero** – UCLA SEALab Principal Investigator
+* **Nouh J. Sepulveda** – UCLA Undergraduate
+* **Michael Adams Jr.** – UCLA Undergraduate
+* **Professor Isabella arzno-soltero** – UCLA Civil & Environmental Engineering
 * **Council for Watershed Health (CWH)**
 
 ---
