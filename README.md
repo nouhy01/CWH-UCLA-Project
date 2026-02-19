@@ -9,7 +9,7 @@
 ## Problem Statement
 Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities. Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture. 
 
-This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**, allowing stakeholders to prioritize greening projects where they provide the most significant community and environmental ROI.
+This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**, allowing groups to prioritize greening projects where they provide the most significant community and environmental ROI.
 
 ## Key Objectives
 * **Data Centralization**: Integration of CalEnviroScreen 4.0, CA Schoolyard Tree Canopy Equity Study, and SCWP planning tools.
@@ -22,14 +22,17 @@ This project solves the "Data Fragmentation" problem by merging environmental, h
 ## Data Dictionary & Repository Structure
 This repository is organized to separate raw data, processing documentation, and visual analysis.
 
-| Folder | Contents |
+| Folder / File | Contents & Description |
 | :--- | :--- |
-| **`/Data/CSNA`** | Community Strategy Needs Assessment: Spatial layers for community-level opportunity areas. |
-| **`/Data/School Canopy`** | Data from the Tree Canopy Equity Study, including the `school_canopy_data.csv`. |
-| **`/Data/Watershed`** | Hydrologic layers: Groundwater basins, hydrogeologic forebays, and SCWP Watershed areas. |
-| **`/Documentation`** | Metadata and Michael’s specific layer documentation (`Data Sources (Michael's layers)`). |
-| **`/Figures`** | Analytical notebooks (`Plots_For_Project.ipynb`) and static exports like `Environmental Burden Distribution`. |
-| **`/Requirements`** | Environment configuration and software dependency lists. |
+| **`/Data/CSNA`** | **Community Strategy Needs Assessment**: Spatial layers (GeoJSON) for community-level opportunity areas and survey responses. |
+| **`/Data/Closed Schools Data`** | Historical data and spatial layers regarding decommissioned or closed school campuses in LA County. |
+| **`/Data/Community Characteristics`** | Socioeconomic indicators including `FinalGSA_AGOL_2024.csv`, `HighNeed_AGOL.csv`, and Green Schoolyard categories. |
+| **`/Data/School Canopy`** | **Tree Canopy Equity Study**: Contains `school_canopy_data.csv` and resource links for urban heat island analysis. |
+| **`/Data/Watershed`** | **Hydrologic Layers**: Groundwater basins, hydrogeologic forebays, major watersheds, and SCWP Watershed Areas (GeoJSON). |
+| **`/Documentation`** | Metadata and source tracking, specifically the `Data Sources (michael's layers)` documentation. |
+| **`/Figures`** | **Analytical Suite**: Contains `Plots_For_Project.ipynb` and exported visuals like `Environmental Burden Distribution` and `Poverty vs. Cumulative Impact`. |
+| **`/Requirements`** | **Environment Setup**: Lists `Software Dependencies` necessary to replicate the Python environment. |
+| **`README.md`** | Project documentation, objectives, and usage instructions. |
 
 ---
 
