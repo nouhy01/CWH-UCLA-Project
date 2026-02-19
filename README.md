@@ -15,7 +15,7 @@ This project solves the "Data Fragmentation" problem by merging environmental, h
 * **Data Centralization**: Integration of CalEnviroScreen 4.0, CA Schoolyard Tree Canopy Equity Study, and SCWP planning tools.
 * **Equity-First Prioritization**: Ranking schools based on the intersection of environmental burden and socioeconomic vulnerability.
 * **Hydrological Mapping**: Identifying "high impermeability + high infiltration" sites to maximize groundwater recharge potential.
-* **Active Transportation**: Mapping connectivity between schools, parks, and protected bike lanes.
+* **Active Transportation**: Mapping connectivity between schools and parks.
 
 ---
 
