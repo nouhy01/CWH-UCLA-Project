@@ -17,11 +17,12 @@ Analyze Connectivity: Map the physical relationship between schools, local parks
 
 
 Stormwater Potential: Rank campuses where "high impermeability + high infiltration potential" intersect to maximize stormwater capture.
+Plots: Plots can be run without downloading any data; the code utilizes and pulls from the GitHub repository directly.  
 
 Software & Package Requirements
 To run the analysis scripts in this repository, you will need Python 3.x and the following libraries:
 
-Data Analysis: pandas, numpy, seaborn, matplotlib
+Data Analysis: pandas, geopandas, numpy, seaborn, matplotlib
 
 
 Statistical Modeling: scikit-learn (for Random Forest scoring algorithms)
