@@ -29,7 +29,7 @@ This repository is organized to separate raw data, processing documentation, and
 | **`/Data/Community Characteristics`** | Socioeconomic indicators including `FinalGSA_AGOL_2024.csv`, `HighNeed_AGOL.csv`, and Green Schoolyard categories. |
 | **`/Data/School Canopy`** | **Tree Canopy Equity Study**: Contains `school_canopy_data.csv` and resource links for urban heat island analysis. |
 | **`/Data/Watershed`** | **Hydrologic Layers**: Groundwater basins, hydrogeologic forebays, major watersheds, and SCWP Watershed Areas (GeoJSON). |
-| **`/Documentation`** | Metadata and source tracking, specifically the `Data Sources (michael's layers)` documentation. |
+| **`/Documentation`** | Metadata and source tracking, specifically the `Data Sources (Michael's layers)` documentation. |
 | **`/Figures`** | **Analytical Suite**: Contains `Plots_For_Project.ipynb` and exported visuals like `Environmental Burden Distribution` and `Poverty vs. Cumulative Impact`. |
 | **`/Requirements`** | **Environment Setup**: Lists `Software Dependencies` necessary to replicate the Python environment. |
 | **`README.md`** | Project documentation, objectives, and usage instructions. |
@@ -71,7 +71,7 @@ The project generates several key metrics for decision-makers:
 ## Acknowledgments
 * **Nouh J. Sepulveda** – UCLA Undergraduate
 * **Michael Adams Jr.** – UCLA Undergraduate
-* **Professor Isabella arzno-soltero** – UCLA Civil & Environmental Engineering
+* **Professor Isabella Arzno-Soltero** – UCLA Civil & Environmental Engineering
 * **Council for Watershed Health (CWH)**
 
 ---
