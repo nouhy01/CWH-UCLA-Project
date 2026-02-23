@@ -70,7 +70,7 @@ The project generates several key metrics for decision-makers:
 ## Acknowledgments
 * **Nouh J. Sepulveda** – UCLA Undergraduate
 * **Michael Adams Jr.** – UCLA Undergraduate
-* **Professor Isabella Arzno-Soltero** – UCLA Civil & Environmental Engineering
+* **Professor Isabella Arzeno-Soltero** – UCLA Civil & Environmental Engineering
 * **Council for Watershed Health (CWH)**
 
 ---
