@@ -41,18 +41,18 @@ The core of this project is a Python-based data pipeline that performs spatial j
 
 ### Technical Requirements
 * **Language**: Python 3.8+
-* **Geospatial**: `geopandas`, `shapely`, `fiona`
-* **Analysis**: `pandas`, `numpy`, `scikit-learn`
-* **Visualization**: `matplotlib`, `seaborn`
+* **Geospatial**: `geopandas`, `shapely`
+* **Analysis**: `pandas`, `numpy`
+* **Visualization**: `matplotlib`
 
 
 
 ---
 
 ## Execution & Reproducibility
-The analysis is designed to be fully reproducible and "cloud-ready." 
+The analysis is designed to be fully reproducible.
 
-**No local data downloading is required** for the primary visualization suite. The code in `Figures/Plots_For_Project.ipynb` is configured to pull the latest data directly from this GitHub repository's `main` branch.
+Data access: The code in `Figures/Plots_For_Project.ipynb` is configured to pull the latest data directly from this GitHub repository's `main` branch.
 
 1.  **Clone the repo**: `git clone https://github.com/nouhy01/CWH-UCLA-Project.git`
 2.  **Install dependencies**: `pip install -r Requirements/Software_Dependencies.txt`
@@ -60,7 +60,7 @@ The analysis is designed to be fully reproducible and "cloud-ready."
 
 ---
 
-## Expected Outputs
+## Expected Outputs (WIP for metrics. Need Further input on what variables we need)
 The project generates several key metrics for decision-makers:
 * **Heat Vulnerability Index**: Schools with the lowest canopy-to-student ratio.
 * **Stormwater Capture Ranking**: Campuses sitting on "high-infiltration" soil types (Forebays).
