@@ -25,7 +25,6 @@ This repository is organized to separate raw data, processing documentation, and
 | Folder / File | Contents & Description |
 | :--- | :--- |
 | **`/Data/CSNA`** | **Community Strategy Needs Assessment**: Spatial layers (GeoJSON) for community-level opportunity areas and survey responses. |
-| **`/Data/Closed Schools Data`** | Historical data and spatial layers regarding decommissioned or closed school campuses in LA County. |
 | **`/Data/Community Characteristics`** | Socioeconomic indicators including `FinalGSA_AGOL_2024.csv`, `HighNeed_AGOL.csv`, and Green Schoolyard categories. |
 | **`/Data/School Canopy`** | **Tree Canopy Equity Study**: Contains `school_canopy_data.csv` and resource links for urban heat island analysis. |
 | **`/Data/Watershed`** | **Hydrologic Layers**: Groundwater basins, hydrogeologic forebays, major watersheds, and SCWP Watershed Areas (GeoJSON). |
