@@ -56,7 +56,7 @@ Data access: The code in `Figures/Plots_For_Project.ipynb` is configured to pull
 
 1.  **Clone the repo**: `git clone https://github.com/nouhy01/CWH-UCLA-Project.git`
 2.  **Install dependencies**: `pip install -r Requirements/Software_Dependencies.txt`
-3.  **Run Analysis**: Open `Plots_For_Project.ipynb` to regenerate the Environmental Burden and Poverty vs. Impact plots.
+3.  **Run Analysis**: Open `Plots_For_Project.ipynb` to regenerate all plots.
 
 ---
 
