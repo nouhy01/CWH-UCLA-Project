@@ -48,7 +48,11 @@ This repository is organized to separate raw data, processing documentation, and
 ## Execution & Reproducibility
 The analysis is designed to be fully reproducible.
 
-Data access: The code in `Figures/Plots_For_Project.ipynb` is configured to pull the latest data directly from this GitHub repository's `main` branch.
+Data access:
+Files for ArcGIS layers can be downloaded here:
+https://drive.google.com/file/d/1VLdaY6BL8Fh2Sp6yI5jUA46grEyK38ZY/view?usp=sharing
+
+The code in `Figures/Plots_For_Project.ipynb` is configured to pull the latest data directly from this GitHub repository's `main` branch.
 
 1.  **Clone the repo**: `git clone https://github.com/nouhy01/CWH-UCLA-Project.git`
 2.  **Install dependencies**: `pip install -r Requirements/Software_Dependencies.txt`
