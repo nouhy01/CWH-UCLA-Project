@@ -36,16 +36,12 @@ This repository is organized to separate raw data, processing documentation, and
 
 ---
 
-## Methodology & Technical Stack
-The core of this project is a Python-based data pipeline that performs spatial joins and applies a **Random Forest scoring algorithm** to identify priority sites.
-
 ### Technical Requirements
 * **Language**: Python 3.8+
 * **Geospatial**: `geopandas`, `shapely`
 * **Analysis**: `pandas`, `numpy`
 * **Visualization**: `matplotlib`
-
-
+* **ArcGIS**
 
 ---
 
