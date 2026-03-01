@@ -3,7 +3,7 @@
 
 [![UCLA Engineering](https://img.shields.io/badge/UCLA-Civil%20%26%20Environmental-blue)](https://samueli.ucla.edu/)
 [![Partner](https://img.shields.io/badge/Partner-Council%20for%20Watershed%20Health-green)](https://www.watershedhealth.org/)
-
+[![DASHBOARD](cwh-dashboard.surge.sh)]
 ---
 
 ## Problem Statement
@@ -19,8 +19,12 @@ This project solves the "Data Fragmentation" problem by merging environmental, h
 
 ---
 
+
 ## Data Dictionary & Repository Structure
 This repository is organized to separate raw data, processing documentation, and visual analysis.
+
+Files for ArcGIS layers can be downloaded here:
+https://drive.google.com/file/d/1Z6dWAoYiOX90I0CmPKkzbGt18-a-DBjL/view?usp=sharing
 
 | Folder / File | Contents & Description |
 | :--- | :--- |
@@ -42,14 +46,10 @@ This repository is organized to separate raw data, processing documentation, and
 * **Visualization**: `matplotlib`
 * **ArcGIS**
 
----
-
 ## Execution & Reproducibility
 The analysis is designed to be fully reproducible.
 
-Data access:
-Files for ArcGIS layers can be downloaded here:
-https://drive.google.com/file/d/1VLdaY6BL8Fh2Sp6yI5jUA46grEyK38ZY/view?usp=sharing
+
 
 The code in `Figures/Plots_For_Project.ipynb` is configured to pull the latest data directly from this GitHub repository's `main` branch.
 
