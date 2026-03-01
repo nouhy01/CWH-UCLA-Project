@@ -3,9 +3,8 @@
 
 [![UCLA Engineering](https://img.shields.io/badge/UCLA-Civil%20%26%20Environmental-blue)](https://samueli.ucla.edu/)
 [![Partner](https://img.shields.io/badge/Partner-Council%20for%20Watershed%20Health-green)](https://www.watershedhealth.org/)
-[![DASHBOARD]](cwh-dashboard.surge.sh)
 ---
-
+https://cwh-dashboard.surge.sh/
 ## Problem Statement
 Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities. Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture. 
 
