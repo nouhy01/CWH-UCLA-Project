@@ -12,7 +12,7 @@ Public schools in Los Angeles County often lack adequate tree canopy, contributi
 This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**, allowing groups to prioritize greening projects where they provide the most significant community and environmental ROI.
 
 ## Key Objectives
-* **Data Centralization**: Integration of CalEnviroScreen 4.0, CA Schoolyard Tree Canopy Equity Study, and SCWP planning tools.
+* **Data Centralization**: Integration of CalEnviroScreen 5.0 (Draft), CA Schoolyard Tree Canopy Equity Study, and SCWP planning tools.
 * **Equity-First Prioritization**: Ranking schools based on the intersection of environmental burden and socioeconomic vulnerability.
 * **Hydrological Mapping**: Identifying "high impermeability + high infiltration" sites to maximize groundwater recharge potential.
 * **Active Transportation**: Mapping connectivity between schools and parks.
