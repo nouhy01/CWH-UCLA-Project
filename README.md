@@ -3,7 +3,7 @@
 
 [![UCLA Engineering](https://img.shields.io/badge/UCLA-Civil%20%26%20Environmental-blue)](https://samueli.ucla.edu/)
 [![Partner](https://img.shields.io/badge/Partner-Council%20for%20Watershed%20Health-green)](https://www.watershedhealth.org/)
-[![DASHBOARD](cwh-dashboard.surge.sh)]
+[![DASHBOARD]](cwh-dashboard.surge.sh)
 ---
 
 ## Problem Statement
