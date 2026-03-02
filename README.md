@@ -1,8 +1,8 @@
 # CWH-UCLA-Project: School Greening & Watershed Equity
 ### Identifying Intersectional Opportunity Sites for Stormwater & Equity
-**
+
 [![UCLA Engineering](https://img.shields.io/badge/UCLA-Civil%20%26%20Environmental-blue)](https://samueli.ucla.edu/)
-[![Partner](https://img.shields.io/badge/Partner-Council%20for%20Watershed%20Health-green)](https://www.watershedhealth.org/)**
+[![Partner](https://img.shields.io/badge/Partner-Council%20for%20Watershed%20Health-green)](https://www.watershedhealth.org/)
 ---
 https://cwh-dashboard.surge.sh/
 ## Problem Statement
