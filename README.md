@@ -43,7 +43,7 @@ The map allows users to:
 - toggle different environmental layers
 - explore school data
 - view greening priority rankings
-- examine environmental conditions surrounding each school
+- examine the environmental conditions surrounding each school
 
 ---
 
@@ -153,7 +153,7 @@ These datasets were combined within **ArcGIS Pro** to produce the final suitabil
 
 ---
 
-# How to Use the Dashboard (Non-Technical Users)
+# How to Use the Dashboard
 
 The dashboard is designed to be simple to use.
 
