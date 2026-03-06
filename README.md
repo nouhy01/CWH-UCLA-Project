@@ -192,7 +192,6 @@ Campus area is used as a proxy for greening potential, but some spaces may be un
 
 ## Repository Structure
 
-```
 icpms_project/
 │
 ├── data/
@@ -200,7 +199,7 @@ icpms_project/
 │   │   └── Eurofins ICP-MS report exports
 │   │
 │   └── processed/
-│       └── Cleaned dataset with corrected serial numbers and standardized fields
+│       └── Cleaned dataset with standardized fields
 │
 ├── scripts/
 │   ├── clean_icpms_data.py
@@ -214,7 +213,6 @@ icpms_project/
 │   └── Final cleaned dataset ready for analysis
 │
 └── README.md
-```
 ---
 
 # About This Project
