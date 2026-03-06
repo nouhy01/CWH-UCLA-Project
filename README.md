@@ -20,8 +20,6 @@ This project solves the **data fragmentation problem** by merging environmental,
 
 ## Technical Refinements & Methodology
 
-Following the **ENHANCE phase**, the analysis was improved through:
-
 - **Discrepancy Analysis**  
   Included a **95% confidence interval** to statistically confirm that current high-priority areas often lack adequate permeability.
 
