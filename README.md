@@ -1,4 +1,4 @@
-# CWH-UCLA-Project: School Greening & Watershed Equity
+# CWH School Greening Priority Dashboard
 ### Identifying Intersectional Opportunity Sites for Stormwater & Equity
 
 [![UCLA Engineering](https://img.shields.io/badge/UCLA-Civil%20%26%20Environmental-blue)](https://samueli.ucla.edu/)
@@ -6,9 +6,7 @@
 
 ---
 
-### 🔗 [Access the Live Dashboard Here](https://cwh-dashboard.surge.sh/)
-
-# CWH School Greening Priority Dashboard
+### [Access the Dashboard Here](https://cwh-dashboard.surge.sh/)
 
 This repository contains the data, analysis, and ArcGIS project used to create the **CWH School Greening Priority Dashboard**, an interactive map designed to help identify which public schools in **Los Angeles County** should be prioritized for school greening investments.
 
