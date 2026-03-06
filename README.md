@@ -72,9 +72,8 @@ The score combines environmental conditions, social vulnerability, and infrastru
 | Category | Weight |
 |--------|--------|
 Heat & Canopy | 30%
-Stormwater Infiltration Potential | 25%
-Disadvantaged Community Score | 25%
-Parks within ½ mile | 10%
+Stormwater Infiltration Potential | 30%
+Disadvantaged Community Score | 30%
 Parks within ¼ mile | 5%
 Elementary School Indicator | 5%
 
