@@ -128,7 +128,6 @@ Access to nearby green space is included as a secondary factor.
 
 Metrics include:
 
-- parks within ½ mile
 - parks within ¼ mile
 
 Schools with **less nearby park access** receive higher priority.
