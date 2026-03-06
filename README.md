@@ -190,19 +190,31 @@ Campus area is used as a proxy for greening potential, but some spaces may be un
 
 ---
 
-# Repository Structure
-CWH-UCLA-Project
+## Repository Structure
+
+```
+icpms_project/
 │
-├── ArcGIS_Project
-│ └── ArcGIS Pro project files
+├── data/
+│   ├── raw/
+│   │   └── Eurofins ICP-MS report exports
+│   │
+│   └── processed/
+│       └── Cleaned dataset with corrected serial numbers and standardized fields
 │
-├── Data
-│ └── geospatial datasets
+├── scripts/
+│   ├── clean_icpms_data.py
+│   ├── assign_serial_ids.py
+│   └── merge_sample_metadata.py
 │
-├── Figures
-│ └── plots and visualizations used in analysis
+├── notebooks/
+│   └── icpms_processing_workflow.ipynb
+│
+├── outputs/
+│   └── Final cleaned dataset ready for analysis
 │
 └── README.md
+```
 ---
 
 # About This Project
