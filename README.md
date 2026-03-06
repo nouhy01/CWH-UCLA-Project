@@ -8,156 +8,205 @@
 
 ### 🔗 [Access the Live Dashboard Here](https://cwh-dashboard.surge.sh/)
 
----
+# CWH School Greening Priority Dashboard
 
-## Project Overview
+This repository contains the data, analysis, and ArcGIS project used to create the **CWH School Greening Priority Dashboard**, an interactive map designed to help identify which public schools in **Los Angeles County** should be prioritized for school greening investments.
 
-Public schools in Los Angeles County often lack adequate tree canopy, contributing to **Urban Heat Island** effects that disproportionately impact disadvantaged communities. Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture.
+School greening strategies such as tree planting, shade infrastructure, permeable pavement, and bioswales can reduce urban heat, improve stormwater infiltration, and create healthier environments for students.
 
-This project solves the **data fragmentation problem** by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**. This tool allows partners to prioritize greening projects where they provide the greatest community and environmental return on investment.
-
----
-
-## Technical Refinements & Methodology
-
-- **Discrepancy Analysis**  
-  Included a **95% confidence interval** to statistically confirm that current high-priority areas often lack adequate permeability.
-
-- **Regional Burden Profiles**  
-  Implemented **Windrose Charts** to visualize how stressors like heat and pollution interact across LAUSD regions.
-
-- **Data Validation**  
-  Corrected unit measurements by converting **square inches to square meters** and applied **logarithmic scaling** to canopy percentage to better distinguish high-priority sites.
-
-- **Visual Transparency**  
-  Implemented a **high-contrast color scheme**:
-  - Schools → **Red**
-  - Parks → **Blue**
-  - Overlap → **Purple**
+The dashboard ranks schools using a **multi-factor greening priority score** and allows users to explore environmental and social indicators that influence greening opportunities.
 
 ---
 
-## How to Use the Dashboard
+# Final Product
 
-The **CWH School Greening Priority Dashboard** is an interactive web map designed for non-technical users to make data-driven decisions.
+The final product is an **interactive web map dashboard** that allows users to:
 
-### 1. Explore the Map
-Redder colors indicate higher priority. Use the **school counter** to see both the total count and the schools visible in your current view.
+- View greening priority rankings for schools
+- Explore environmental and socio-economic indicators
+- Compare schools across Los Angeles County
+- Identify campuses with the highest potential for greening interventions
 
-### 2. Adjust the Weights
-Use the **Scoring** tab to customize the index.
-
-Default weights (from the March 2 meeting):
-
-- **30%** Canopy Heat Relief  
-- **25%** Infiltration Potential  
-- **25%** Disadvantaged Community (CalEnviroScreen 5.0)  
-- **10%** Parks within 1/2 mile  
-- **5%** Parks within 1/4 mile  
-- **5%** Elementary School Status  
-
-### 3. Check the Leaderboard
-The **Statistics** tab provides a **Top 20 list** of schools meeting your selected criteria.
-
-### 4. View Site Details
-Click any school to open its **Data Card**, which includes:
-
-- Enrollment
-- Tree canopy percentage
-- Additional site metrics
+Users can interact with the dashboard by toggling layers, clicking schools for detailed information, and examining different environmental datasets.
 
 ---
 
-## Execution & Reproducibility
+# Accessing the Dashboard
 
-The analysis is designed to be **fully reproducible using Python and Jupyter**.
+The dashboard can be accessed directly online:
 
-### Technical Requirements
+**Dashboard Website**
 
-- **Language:** Python 3.8+
-- **Geospatial:** `geopandas`, `shapely`
-- **Analysis:** `pandas`, `numpy`
-- **Visualization:** `matplotlib`
-- **GIS Platform:** ArcGIS Pro
+Users can open the website and immediately explore the map. No software or technical knowledge is required.
 
----
-
-## Running Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/nouhy01/CWH-UCLA-Project.git
-```
-
-### 2. Install Dependencies
-
-Ensure Python 3.8+ is installed, then run:
-
-```bash
-pip install -r Requirements/Software_Dependencies.txt
-```
-
-### 3. Run the Analysis
-
-Open the notebook:
-
-```
-Figures/Plots_For_Project.ipynb
-```
-
-in **VS Code** or **Jupyter Notebook** to regenerate all charts and analytical figures.
+The map allows users to:
+- toggle different environmental layers
+- explore school data
+- view greening priority rankings
+- examine environmental conditions surrounding each school
 
 ---
 
-## Data Dictionary & Repository Structure
+# Downloading the Data and ArcGIS Project
 
-Files for ArcGIS layers can be downloaded from the project **Google Drive repository**.
+All project files are available in this repository.
 
-### Repository Structure
+A compressed archive containing the **ArcGIS Pro project and geospatial datasets** is available on the front page of the repository.
 
-```
-CWH-UCLA-Project/
-├── Data/
-│   ├── CSNA/                        # GeoJSON layers for community opportunity areas
-│   ├── Closed Schools/              # Historical data for decommissioned campuses
-│   ├── Community Characteristics/   # Socioeconomic datasets, Tree Equity, CES 5.0
-│   ├── SCWP Layer/                  # Safe Clean Water Program opportunity spatial data
-│   ├── Schools/                     # Points/polygons for schools and parks mapping
-│   └── Watershed/                   # Hydrologic spatial layers (Basins, GDBs)
+To open the full project:
+
+1. Download the `.7z` file from the repository.
+2. Extract the archive.
+3. Open the `.aprx` file using **ArcGIS Pro**.
+4. All layers, maps, and analysis tools will load automatically.
+
+---
+
+# Greening Priority Score
+
+Schools are ranked using a **weighted scoring system** designed to identify campuses where greening interventions could provide the greatest benefit.
+
+The score combines environmental conditions, social vulnerability, and infrastructure opportunities.
+
+### Default Weights
+
+| Category | Weight |
+|--------|--------|
+Heat & Canopy | 30%
+Stormwater Infiltration Potential | 25%
+Disadvantaged Community Score | 25%
+Parks within ½ mile | 10%
+Parks within ¼ mile | 5%
+Elementary School Indicator | 5%
+
+These weights were determined in consultation with the **Council for Watershed Health** and can be modified within the dashboard.
+
+---
+
+# Score Components
+
+### Heat & Canopy
+
+Measures how much shade currently exists on school campuses and the potential for reducing heat exposure.
+
+Indicators include:
+
+- Tree canopy coverage
+- Surface temperature indicators
+- Tree equity metrics
+
+Schools with **low canopy coverage and high heat exposure** receive higher priority.
+
+---
+
+### Stormwater Infiltration Potential
+
+Estimates how much stormwater could be captured or absorbed if greening infrastructure were installed.
+
+This score combines:
+
+- Soil infiltration capacity
+- Impervious surface area
+- Campus footprint size
+
+Schools with **large impervious areas and favorable soil conditions** receive higher scores.
+
+---
+
+### Disadvantaged Community Score
+
+Socio-economic vulnerability is measured using:
+
+- **CalEnviroScreen 5.0**
+- Poverty percentiles
+
+Schools located in communities experiencing **higher pollution burdens and socio-economic disadvantage** receive higher priority.
+
+---
+
+### Park Connectivity
+
+Access to nearby green space is included as a secondary factor.
+
+Metrics include:
+
+- parks within ½ mile
+- parks within ¼ mile
+
+Schools with **less nearby park access** receive higher priority.
+
+---
+
+# Data Sources
+
+Major datasets used in the analysis include:
+
+- CalEnviroScreen 5.0
+- Tree Equity Scores
+- SCWP Opportunity Zones
+- Soil data (gNATSGO)
+- Watershed boundaries
+- School campus footprints
+- Park locations
+
+These datasets were combined within **ArcGIS Pro** to produce the final suitability ranking.
+
+---
+
+# How to Use the Dashboard (Non-Technical Users)
+
+The dashboard is designed to be simple to use.
+
+Users can:
+
+### Toggle Data Layers
+Turn environmental datasets on or off to view different conditions across Los Angeles County.
+
+### Click on Schools
+Clicking a school opens a data card showing:
+
+- greening priority score
+- canopy coverage
+- stormwater potential
+- surrounding environmental indicators
+
+### Explore Rankings
+The map colors schools based on their greening priority score, allowing users to quickly identify high-priority locations.
+
+---
+
+# Limitations
+
+Several limitations should be considered when interpreting the results.
+
+### Data Resolution
+Some datasets are available only at the **census tract level**, which may not perfectly represent conditions at individual schools.
+
+### Canopy Measurement
+Tree canopy estimates are derived from satellite imagery and may include classification error.
+
+### Physical Site Constraints
+Campus area is used as a proxy for greening potential, but some spaces may be unavailable due to infrastructure such as buildings, athletic courts, or utilities.
+
+---
+
+# Repository Structure
+CWH-UCLA-Project
 │
-├── Figures/
-│   ├── Plots_For_Project.ipynb      # Main Jupyter notebook for analysis
-│   └── Exported Visuals/            # PNG or PDF charts generated from analysis
+├── ArcGIS_Project
+│ └── ArcGIS Pro project files
 │
-├── Requirements/
-│   └── Software_Dependencies.txt    # Python dependency list
+├── Data
+│ └── geospatial datasets
 │
-└── README.md                        # Project documentation
-```
-
+├── Figures
+│ └── plots and visualizations used in analysis
+│
+└── README.md
 ---
 
-## Data Dictionary
+# About This Project
 
-| Folder / File | Description |
-|---|---|
-| `/Data/CSNA` | Community Strategy Needs Assessment spatial opportunity layers |
-| `/Data/Closed Schools` | Historical datasets for decommissioned campuses |
-| `/Data/Community Characteristics` | Socioeconomic indicators, Tree Equity, CalEnviroScreen 5.0 |
-| `/Data/School Canopy` | Tree canopy equity study and urban heat island data |
-| `/Data/Watershed` | Hydrologic layers including groundwater basins and watershed areas |
-| `/Figures` | Analytical outputs and visualizations generated from the notebook |
-| `/Requirements` | Python environment dependencies needed to reproduce the analysis |
+This project was created as part of a collaboration with the **Council for Watershed Health** to support data-driven planning for school greening initiatives across Los Angeles County.
 
----
-
-## Acknowledgments
-
-**Nouh J. Sepulveda** — UCLA Undergraduate  
-**Michael Adams Jr.** — UCLA Undergraduate  
-
-**Professor Isabella Arzeno-Soltero**  
-UCLA Civil & Environmental Engineering  
-
-**Council for Watershed Health (CWH)**
+The goal is to provide an accessible tool that helps identify locations where greening investments can produce the greatest environmental and community benefits.
