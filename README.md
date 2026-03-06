@@ -191,6 +191,7 @@ Campus area is used as a proxy for greening potential, but some spaces may be un
 ---
 
 ## Repository Structure
+```
 icpms_project/
 ├── Data/
 │   ├── Community Characteristics/
@@ -225,6 +226,7 @@ icpms_project/
 │   └── Software Dependencies
 │
 └── README.md
+```
 ---
 
 # About This Project
