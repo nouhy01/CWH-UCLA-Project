@@ -191,26 +191,38 @@ Campus area is used as a proxy for greening potential, but some spaces may be un
 ---
 
 ## Repository Structure
-
 icpms_project/
-│
-├── data/
-│   ├── raw/
-│   │   └── Eurofins ICP-MS report exports
+├── Data/
+│   ├── Community Characteristics/
+│   │   ├── FinalGSA_AGOL_2024.csv
+│   │   ├── Lower LA River Revitalization Plan
+│   │   ├── ces.geojson
+│   │   └── tree_equity.geojson
 │   │
-│   └── processed/
-│       └── Cleaned dataset with standardized fields
+│   ├── SCWP Layer/
+│   │   ├── scw_groundwater.geojson
+│   │   ├── scw_stormwater.geojson
+│   │   ├── scw_waterquality.geojson
+│   │   └── watershed_boundaries.geojson
+│   │
+│   ├── Schools/
+│   │   ├── countywide_parks.geojson
+│   │   ├── finalschoolswithdatareal.geojson
+│   │   └── mupolygon.geojson
+│   │
+│   └── Watershed/
+│       ├── Groundwater basins.geojson
+│       ├── Hydrogeologic forebays.geojson
+│       ├── Major_Watersheds_in_Los_Angeles.geojson
+│       └── Watersheds subbasins.geojson
 │
-├── scripts/
-│   ├── clean_icpms_data.py
-│   ├── assign_serial_ids.py
-│   └── merge_sample_metadata.py
+├── Figures/
+│   ├── Environmental Burden Distribution
+│   ├── Plots_For_Project.ipynb
+│   └── Poverty vs. Cumulative Impact
 │
-├── notebooks/
-│   └── icpms_processing_workflow.ipynb
-│
-├── outputs/
-│   └── Final cleaned dataset ready for analysis
+├── Requirements/
+│   └── Software Dependencies
 │
 └── README.md
 ---
