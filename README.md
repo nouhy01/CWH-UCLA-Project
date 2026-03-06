@@ -67,10 +67,10 @@ CWH-UCLA-Project/
 │   └── Software_Dependencies.txt    # Python package dependencies
 └── README.md                        # Project documentation
 
+---
+
 ## Acknowledgments
 * **Nouh J. Sepulveda** – UCLA Undergraduate
 * **Michael Adams Jr.** – UCLA Undergraduate
 * **Professor Isabella Arzeno-Soltero** – UCLA Civil & Environmental Engineering
 * **Council for Watershed Health (CWH)**
-
----
