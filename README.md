@@ -3,24 +3,41 @@
 
 [![UCLA Engineering](https://img.shields.io/badge/UCLA-Civil%20%26%20Environmental-blue)](https://samueli.ucla.edu/)
 [![Partner](https://img.shields.io/badge/Partner-Council%20for%20Watershed%20Health-green)](https://www.watershedhealth.org/)
----
-https://cwh-dashboard.surge.sh/
-## Problem Statement
-Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities. Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture. 
-
-This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**, allowing groups to prioritize greening projects where they provide the most significant community and environmental ROI.
-
-## Key Objectives
-* **Data Centralization**: Integration of CalEnviroScreen 5.0 (Draft), CA Schoolyard Tree Canopy Equity Study, and SCWP planning tools.
-* **Equity-First Prioritization**: Ranking schools based on the intersection of environmental burden and socioeconomic vulnerability.
-* **Hydrological Mapping**: Identifying "high impermeability + high infiltration" sites to maximize groundwater recharge potential.
-* **Active Transportation**: Mapping connectivity between schools and parks.
 
 ---
 
+### 🔗 [Access the Live Dashboard Here](https://cwh-dashboard.surge.sh/)
+
+## Project Overview
+[cite_start]Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities[cite: 9, 10]. [cite_start]Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture[cite: 26]. 
+
+[cite_start]This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**[cite: 12, 13, 14]. [cite_start]This tool allows partners to prioritize greening projects where they provide the most significant community and environmental ROI[cite: 7].
+
+## How to Use the Dashboard
+[cite_start]The **CWH School Greening Priority Dashboard** is designed for non-technical users to make data-driven decisions[cite: 33]:
+
+1. **Explore the Map**: Each dot represents a K-12 campus. [cite_start]Redder colors indicate higher priority based on the current scoring[cite: 33].
+2. [cite_start]**Adjust the Weights**: Use the **Scoring** tab to change how much you value different factors like **Canopy Heat Relief**, **Infiltration Potential**, or **Disadvantaged Communities**[cite: 18, 19, 28].
+3. [cite_start]**Check the Leaderboard**: The **Statistics** tab provides a "Top 20" list of schools that meet your specific criteria[cite: 29, 30].
+4. [cite_start]**View Site Details**: Click any school to see its specific "Data Card," including enrollment, current canopy percentage, and local soil types[cite: 33].
+
+## Step-by-Step Instructions for Reproducibility
+
+### Option 1: The Easiest Way (No Coding Required)
+If you want to view the analysis and charts without installing software, use **Google Colab**:
+1. Go to [Google Colab](https://colab.research.google.com/).
+2. Select the **GitHub** tab.
+3. Enter the URL: `https://github.com/nouhy01/CWH-UCLA-Project`
+4. Open `Figures/Plots_For_Project.ipynb` and click **Runtime > Run All**.
+
+### Option 2: Running Locally (For Technical Users)
+1. **Clone the Repo**: `git clone https://github.com/nouhy01/CWH-UCLA-Project.git`
+2. **Install Dependencies**: `pip install -r Requirements/Software_Dependencies.txt`
+3. **Run Analysis**: Open the `Plots_For_Project.ipynb` notebook in VS Code or Jupyter to regenerate all analytical charts.
+
+---
 
 ## Data Dictionary & Repository Structure
-This repository is organized to separate raw data, processing documentation, and visual analysis.
 Files for ArcGIS layers can be downloaded here:
 [Google Drive Link](https://drive.google.com/file/d/1Z6dWAoYiOX90I0CmPKkzbGt18-a-DBjL/view?usp=sharing)
 
@@ -30,44 +47,13 @@ CWH-UCLA-Project/
 │   ├── Community Characteristics/   # Socioeconomic datasets, Tree Equity, CES 5.0
 │   ├── SCWP Layer/                  # Safe, Clean Water Program Opportunity spatial data
 │   ├── Schools/                     # Points/polygons for schools and parks mapping
-│   └── Watershed/                   # Hydrologic spatial layers (Basins, Forebays, GDBs)
+│   └── Watershed/                   # Hydrologic spatial layers (Basins, GDBs)
 ├── Figures/                         # Generates visualizations and analytical suites
 │   ├── Plots_For_Project.ipynb      # Main Jupyter notebook for data analysis
 │   └── [Exported Visuals]           # PNGs/PDFs of output charts
 ├── Requirements/                    # Environment setup files
 │   └── Software_Dependencies.txt    # Python package dependencies
 └── README.md                        # Project documentation
-```
-
----
-
-### Technical Requirements
-* **Language**: Python 3.8+
-* **Geospatial**: `geopandas`, `shapely`
-* **Analysis**: `pandas`, `numpy`
-* **Visualization**: `matplotlib`
-* **ArcGIS**
-
-## Execution & Reproducibility
-The analysis is designed to be fully reproducible.
-
-
-
-The code in `Figures/Plots_For_Project.ipynb` is configured to pull the latest data directly from this GitHub repository's `main` branch.
-
-1.  **Clone the repo**: `git clone https://github.com/nouhy01/CWH-UCLA-Project.git`
-2.  **Install dependencies**: `pip install -r Requirements/Software_Dependencies.txt`
-3.  **Run Analysis**: Open `Plots_For_Project.ipynb` to regenerate all plots.
-
----
-
-## Expected Outputs (WIP for metrics. Need Further input on what variables we need)
-The project generates several key metrics for decision-makers:
-* **Heat Vulnerability Index**: Schools with the lowest canopy-to-student ratio.
-* **Stormwater Capture Ranking**: Campuses sitting on "high-infiltration" soil types (Forebays).
-* **Cumulative Impact Scores**: Schools in the top 10% of CalEnviroScreen burden.
-
----
 
 ## Acknowledgments
 * **Nouh J. Sepulveda** – UCLA Undergraduate
