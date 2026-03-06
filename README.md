@@ -6,20 +6,20 @@
 
 ---
 
-### 🔗 [Access the Live Dashboard Here](https://cwh-dashboard.surge.sh/)
+### [Access the Live Dashboard Here](https://cwh-dashboard.surge.sh/)
 
 ## Project Overview
-[cite_start]Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities[cite: 9, 10]. [cite_start]Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture[cite: 26]. 
+Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities. Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture. 
 
-[cite_start]This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**[cite: 12, 13, 14]. [cite_start]This tool allows partners to prioritize greening projects where they provide the most significant community and environmental ROI[cite: 7].
+This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**. This tool allows partners to prioritize greening projects where they provide the most significant community and environmental ROI.
 
 ## How to Use the Dashboard
-[cite_start]The **CWH School Greening Priority Dashboard** is designed for non-technical users to make data-driven decisions[cite: 33]:
+The **CWH School Greening Priority Dashboard** is designed for non-technical users to make data-driven decisions:
 
-1. **Explore the Map**: Each dot represents a K-12 campus. [cite_start]Redder colors indicate higher priority based on the current scoring[cite: 33].
-2. [cite_start]**Adjust the Weights**: Use the **Scoring** tab to change how much you value different factors like **Canopy Heat Relief**, **Infiltration Potential**, or **Disadvantaged Communities**[cite: 18, 19, 28].
-3. [cite_start]**Check the Leaderboard**: The **Statistics** tab provides a "Top 20" list of schools that meet your specific criteria[cite: 29, 30].
-4. [cite_start]**View Site Details**: Click any school to see its specific "Data Card," including enrollment, current canopy percentage, and local soil types[cite: 33].
+1. **Explore the Map**: Each dot represents a K-12 campus. Redder colors indicate higher priority based on the current scoring.
+2. **Adjust the Weights**: Use the **Scoring** tab to change how much you value different factors like **Canopy Heat Relief**, **Infiltration Potential**, or **Disadvantaged Communities**.
+3. **Check the Leaderboard**: The **Statistics** tab provides a "Top 20" list of schools that meet your specific criteria.
+4. **View Site Details**: Click any school to see its specific "Data Card," including enrollment, current canopy percentage, and local soil types.
 
 ## Step-by-Step Instructions for Reproducibility
 
