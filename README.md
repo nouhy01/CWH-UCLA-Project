@@ -6,37 +6,49 @@
 
 ---
 
-### [Access the Live Dashboard Here](https://cwh-dashboard.surge.sh/)
+### 🔗 [Access the Live Dashboard Here](https://cwh-dashboard.surge.sh/)
 
 ## Project Overview
-Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities. Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture. 
+[cite_start]Public schools in Los Angeles County often lack adequate tree canopy, contributing to "Urban Heat Island" effects that disproportionately impact disadvantaged communities[cite: 9, 10]. [cite_start]Simultaneously, LA’s watershed requires more permeable surfaces for stormwater capture[cite: 14, 26]. 
 
-This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**. This tool allows partners to prioritize greening projects where they provide the most significant community and environmental ROI.
+[cite_start]This project solves the "Data Fragmentation" problem by merging environmental, hydrological, and socioeconomic datasets into a **Unified School Layer**[cite: 11, 12, 13, 14]. [cite_start]This tool allows partners to prioritize greening projects where they provide the most significant community and environmental ROI[cite: 5, 6, 7].
+
+## Technical Refinements & Methodology
+Following the ENHANCE phase, the analysis was improved through:
+* **Discrepancy Analysis**: Included a 95% confidence interval to statistically confirm that current high-priority areas often lack adequate permeability.
+* **Regional Burden Profiles**: Implemented Windrose Charts to visualize how stressors like heat and pollution interact across LAUSD regions.
+* **Data Validation**: Corrected unit measurements (converted Square Inches to Square Meters) and applied logarithmic scaling to canopy percentage to better distinguish high-priority sites.
+* **Visual Transparency**: Implemented a high-contrast color scheme: Schools (Red), Parks (Blue), and Overlap (Purple).
 
 ## How to Use the Dashboard
-The **CWH School Greening Priority Dashboard** is designed for non-technical users to make data-driven decisions:
+[cite_start]The **CWH School Greening Priority Dashboard** is an interactive web map designed for non-technical users to make data-driven decisions[cite: 18, 19]:
 
-1. **Explore the Map**: Each dot represents a K-12 campus. Redder colors indicate higher priority based on the current scoring.
-2. **Adjust the Weights**: Use the **Scoring** tab to change how much you value different factors like **Canopy Heat Relief**, **Infiltration Potential**, or **Disadvantaged Communities**.
-3. **Check the Leaderboard**: The **Statistics** tab provides a "Top 20" list of schools that meet your specific criteria.
-4. **View Site Details**: Click any school to see its specific "Data Card," including enrollment, current canopy percentage, and local soil types.
+1. [cite_start]**Explore the Map**: Redder colors indicate higher priority[cite: 33]. Use the school counter to see both the total count and the schools visible in your current view.
+2. [cite_start]**Adjust the Weights**: Use the **Scoring** tab to customize the index[cite: 22]. Per the March 2nd meeting, the default weights are:
+    * [cite_start]**30%** Canopy Heat Relief [cite: 23]
+    * [cite_start]**25%** Infiltration Potential [cite: 28]
+    * [cite_start]**25%** Disadvantaged Community (CalEnviroScreen 5.0) [cite: 25]
+    * **10%** Parks within 1/2 mile
+    * **5%** Parks within 1/4 mile
+    * **5%** Elementary School Status
+3. [cite_start]**Check the Leaderboard**: The **Statistics** tab provides a "Top 20" list of schools meeting your specific criteria[cite: 29, 30].
+4. [cite_start]**View Site Details**: Click any school to see its specific "Data Card," including enrollment and tree canopy percentage[cite: 33].
 
-## Step-by-Step Instructions for Reproducibility
+## Execution & Reproducibility
+The analysis is designed to be fully reproducible using Python and Jupyter.
 
-### Option 1: The Easiest Way (No Coding Required)
-If you want to view the analysis and charts without installing software, use **Google Colab**:
-1. Go to [Google Colab](https://colab.research.google.com/).
-2. Select the **GitHub** tab.
-3. Enter the URL: `https://github.com/nouhy01/CWH-UCLA-Project`
-4. Open `Figures/Plots_For_Project.ipynb` and click **Runtime > Run All**.
+### Technical Requirements
+* **Language**: Python 3.8+
+* **Geospatial**: `geopandas`, `shapely`
+* **Analysis**: `pandas`, `numpy`
+* **Visualization**: `matplotlib`
+* **ArcGIS Pro**
 
-### Option 2: Running Locally (For Technical Users)
-1. **Clone the Repo**: `git clone https://github.com/nouhy01/CWH-UCLA-Project.git`
-2. **Install Dependencies**: `pip install -r Requirements/Software_Dependencies.txt`
-3. **Run Analysis**: Open the `Plots_For_Project.ipynb` notebook in VS Code or Jupyter to regenerate all analytical charts.
-
----
-
+### Running Locally
+1. **Clone the Repo**:
+   ```bash
+   git clone [https://github.com/nouhy01/CWH-UCLA-Project.git](https://github.com/nouhy01/CWH-UCLA-Project.git)
+   
 ## Data Dictionary & Repository Structure
 Files for ArcGIS layers can be downloaded here:
 [Google Drive Link](https://drive.google.com/file/d/1Z6dWAoYiOX90I0CmPKkzbGt18-a-DBjL/view?usp=sharing)
